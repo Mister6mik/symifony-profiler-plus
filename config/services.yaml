@@ -1,4 +1,4 @@
 services:
-  Mister6mik\SymfonyProfilerPlus\DataCollector\SymfonyProfilerPlusDataCollector:
-    tags: 
-      - { name: data_collector, template: '@SymfonyProfilerPlus/collector.html.twig', id: 'symfony_profiler_plus' }
+    Mister6mik\SymfonyProfilerPlus\DataCollector\SymfonyProfilerPlusDataCollector:
+        tags: 
+            - { name: data_collector, template: '@SymfonyProfilerPlus/collector.html.twig', id: 'symfony_profiler_plus' }
