@@ -1,0 +1,25 @@
+{
+    "name": "mister6mik/symfony-profiler-plus",
+    "description": "A Symfony package that adds a custom profiler functionality",
+    "type": "symfony-bundle",
+    "keywords": ["dev"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jessie UGOLIN",
+            "email": "jessie.ugolin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "symfony/framework-bundle": "^7.*",
+        "symfony/web-profiler-bundle": "^7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mister6mik\\SymfonyProfilerPlus\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
